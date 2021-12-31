@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.3](https://github.com/ljy-code/eslint-config/compare/v0.0.2...v0.0.3) (2021-12-31)
+
+
+### Bug Fixes
+
+* npm registry ([df024d8](https://github.com/ljy-code/eslint-config/commit/df024d8da9a6327ab7dbe103b8e6ea6f48f958eb))
+
+
+
+
+
 ## [0.0.2](https://github.com/ljy-code/eslint-config/compare/v0.0.1...v0.0.2) (2021-12-31)
 
 
