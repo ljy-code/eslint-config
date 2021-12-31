@@ -10,7 +10,6 @@
     "index.js"
   ],
   "publishConfig": {
-    "registry": "https://registry.npm.taobao.org/",
     "access": "public"
   },
   "repository": {
@@ -31,5 +30,5 @@
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-import": "^2.25.3"
   },
-  "gitHead": "53bdeb4e9447b777b655144ab1c6989b4d7608e0"
+  "gitHead": "44ceae9396dd7c7c9a072086ec5e88b3b60a321a"
 }
