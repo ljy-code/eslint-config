@@ -1,0 +1,31 @@
+{
+  "name": "@ljy-code/eslint-config-vue",
+  "version": "0.0.1",
+  "author": "ljy-code <ljy910626@gmail.com> (https://github.com/ljy-code/)",
+  "description": "vue project eslint config preset",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ljy-code/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ljy-code/eslint-config/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "homepage": "https://github.com/ljy-code/eslint-config#readme",
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.5.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

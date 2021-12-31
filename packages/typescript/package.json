@@ -1,0 +1,35 @@
+{
+  "name": "@ljy-code/eslint-config-typescript",
+  "version": "0.0.1",
+  "author": "ljy-code <ljy910626@gmail.com> (https://github.com/ljy-code/)",
+  "description": "vue project eslint config preset",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ljy-code/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ljy-code/eslint-config/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "homepage": "https://github.com/ljy-code/eslint-config#readme",
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.8.1",
+    "@typescript-eslint/parser": "^5.8.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.5.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
