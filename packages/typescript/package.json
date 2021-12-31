@@ -1,6 +1,6 @@
 {
   "name": "@ljy-code/eslint-config-typescript",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "typescript project eslint config preset",
   "author": "ljy-code <ljy910626@gmail.com> (https://github.com/ljy-code/)",
   "homepage": "https://github.com/ljy-code/eslint-config/tree/main/packages/typescript#readme",
