@@ -1,6 +1,6 @@
 {
   "name": "@ljy-code/eslint-config",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "ljy-code <ljy910626@gmail.com> (https://github.com/ljy-code/)",
   "description": "vue project eslint config preset",
   "repository": {
@@ -23,9 +23,9 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@ljy-code/eslint-config-basic": "^0.1.0",
-    "@ljy-code/eslint-config-typescript": "^0.1.0",
-    "@ljy-code/eslint-config-vue": "^0.1.0",
+    "@ljy-code/eslint-config-basic": "^0.2.0",
+    "@ljy-code/eslint-config-typescript": "^0.2.0",
+    "@ljy-code/eslint-config-vue": "^0.2.0",
     "@typescript-eslint/eslint-plugin": "^5.8.1",
     "@typescript-eslint/parser": "^5.8.1",
     "eslint": "^8.5.0",
