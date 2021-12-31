@@ -1,6 +1,6 @@
 {
   "name": "@ljy-code/eslint-config-typescript",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "ljy-code <ljy910626@gmail.com> (https://github.com/ljy-code/)",
   "description": "vue project eslint config preset",
   "repository": {
