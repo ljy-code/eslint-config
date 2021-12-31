@@ -1,8 +1,18 @@
 {
   "name": "@ljy-code/eslint-config-typescript",
-  "version": "0.2.0",
+  "version": "0.0.0",
+  "description": "typescript project eslint config preset",
   "author": "ljy-code <ljy910626@gmail.com> (https://github.com/ljy-code/)",
-  "description": "vue project eslint config preset",
+  "homepage": "https://github.com/ljy-code/eslint-config/tree/main/packages/typescript#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npm.taobao.org/",
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ljy-code/eslint-config.git"
@@ -10,12 +20,6 @@
   "bugs": {
     "url": "https://github.com/ljy-code/eslint-config/issues"
   },
-  "license": "MIT",
-  "files": [
-    "index.js"
-  ],
-  "main": "index.js",
-  "homepage": "https://github.com/ljy-code/eslint-config#readme",
   "scripts": {
     "lint": "eslint . --config=index.js"
   },
@@ -28,8 +32,5 @@
   },
   "devDependencies": {
     "eslint": "^8.5.0"
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }
