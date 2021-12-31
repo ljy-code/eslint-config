@@ -12,6 +12,14 @@ importers:
       lerna: registry.npmmirror.com/lerna/4.0.0
       typescript: registry.npmmirror.com/typescript/4.5.4
 
+  packages/all:
+    specifiers:
+      '@ljy-code/eslint-config-typescript': ^0.0.3
+      '@ljy-code/eslint-config-vue': ^0.0.3
+    dependencies:
+      '@ljy-code/eslint-config-typescript': link:../typescript
+      '@ljy-code/eslint-config-vue': link:../vue
+
   packages/basic:
     specifiers:
       eslint: ^8.5.0
@@ -40,6 +48,28 @@ importers:
       eslint: registry.npmmirror.com/eslint/8.5.0
 
 packages:
+
+  /encoding/0.1.13:
+    resolution: {integrity: sha512-ETBauow1T35Y/WZMkio9jiM0Z5xjHHmJ4XmjZOq1l/dXz3lr2sRn87nJy20RupqSh1F2m3HHPSp8ShIPQJrJ3A==}
+    requiresBuild: true
+    dependencies:
+      iconv-lite: registry.nlark.com/iconv-lite/0.6.3
+    dev: true
+    optional: true
+
+  /graceful-fs/4.2.8:
+    resolution: {integrity: sha512-qkIilPUYcNhJpd33n0GBXTB1MMPp14TxEsEs0pTrsSVucApsYzW5V+Q8Qxhik6KU3evy+qkAAowTByymK0avdg==}
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /uglify-js/3.14.5:
+    resolution: {integrity: sha512-qZukoSxOG0urUTvjc2ERMTcAy+BiFh3weWAkeurLwjrCba73poHmG3E36XEjd/JGukMzwTL7uCxZiAexj8ppvQ==}
+    engines: {node: '>=0.8.0'}
+    hasBin: true
+    requiresBuild: true
+    dev: true
+    optional: true
 
   registry.nlark.com/@gar/promisify/1.1.2:
     resolution: {integrity: sha1-MKqCXxHUOGcdWFvUTn/VZFNfwhA=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/@gar/promisify/download/@gar/promisify-1.1.2.tgz}
@@ -1483,7 +1513,7 @@ packages:
     dependencies:
       universalify: registry.nlark.com/universalify/2.0.0
     optionalDependencies:
-      graceful-fs: registry.npmmirror.com/graceful-fs/4.2.8
+      graceful-fs: 4.2.8
     dev: true
 
   registry.nlark.com/kind-of/6.0.3:
@@ -4466,16 +4496,6 @@ packages:
     version: 8.0.0
     dev: true
 
-  registry.npmmirror.com/encoding/0.1.13:
-    resolution: {integrity: sha1-VldK/deR9UqOmyeFwFgqLSYhD6k=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/encoding/download/encoding-0.1.13.tgz}
-    name: encoding
-    version: 0.1.13
-    requiresBuild: true
-    dependencies:
-      iconv-lite: registry.nlark.com/iconv-lite/0.6.3
-    dev: true
-    optional: true
-
   registry.npmmirror.com/es-abstract/1.19.1:
     resolution: {integrity: sha1-1IhXlodpFpWd547aoN9FZicRXsM=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/es-abstract/download/es-abstract-1.19.1.tgz}
     name: es-abstract
@@ -4814,7 +4834,7 @@ packages:
       source-map: registry.nlark.com/source-map/0.6.1
       wordwrap: registry.nlark.com/wordwrap/1.0.0
     optionalDependencies:
-      uglify-js: registry.npmmirror.com/uglify-js/3.14.5
+      uglify-js: 3.14.5
     dev: true
 
   registry.npmmirror.com/har-validator/5.1.5:
@@ -5152,7 +5172,7 @@ packages:
       minipass-sized: registry.npmmirror.com/minipass-sized/1.0.3
       minizlib: registry.npmmirror.com/minizlib/2.1.2
     optionalDependencies:
-      encoding: registry.npmmirror.com/encoding/0.1.13
+      encoding: 0.1.13
     dev: true
 
   registry.npmmirror.com/minipass-json-stream/1.0.1:
@@ -5986,16 +6006,6 @@ packages:
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
-
-  registry.npmmirror.com/uglify-js/3.14.5:
-    resolution: {integrity: sha512-qZukoSxOG0urUTvjc2ERMTcAy+BiFh3weWAkeurLwjrCba73poHmG3E36XEjd/JGukMzwTL7uCxZiAexj8ppvQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/uglify-js/download/uglify-js-3.14.5.tgz}
-    name: uglify-js
-    version: 3.14.5
-    engines: {node: '>=0.8.0'}
-    hasBin: true
-    requiresBuild: true
-    dev: true
-    optional: true
 
   registry.npmmirror.com/uid-number/0.0.6:
     resolution: {integrity: sha1-DqEOgDXo61uOREnwbaHHMGY7qoE=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/uid-number/download/uid-number-0.0.6.tgz}
