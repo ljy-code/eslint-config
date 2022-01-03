@@ -22,13 +22,11 @@
   "bugs": {
     "url": "https://github.com/ljy-code/eslint-config/issues"
   },
-  "peerDependencies": {
-    "eslint": ">=7.4.0"
-  },
+  "gitHead": "44ceae9396dd7c7c9a072086ec5e88b3b60a321a",
   "dependencies": {
-    "eslint": "^8.5.0",
-    "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-import": "^2.25.3"
-  },
-  "gitHead": "44ceae9396dd7c7c9a072086ec5e88b3b60a321a"
+    "eslint": "^8.6.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1"
+  }
 }

@@ -22,15 +22,10 @@
   "scripts": {
     "lint": "eslint . --config=index.js"
   },
-  "peerDependencies": {
-    "eslint": ">=7.4.0"
-  },
   "dependencies": {
+    "@ljy-code/eslint-config-basic": "^0.1.0",
     "@typescript-eslint/eslint-plugin": "^5.8.1",
     "@typescript-eslint/parser": "^5.8.1"
-  },
-  "devDependencies": {
-    "eslint": "^8.5.0"
   },
   "gitHead": "44ceae9396dd7c7c9a072086ec5e88b3b60a321a"
 }
