@@ -1,6 +1,6 @@
 {
   "name": "@ljy-code/stylelint-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "stylelint preset",
   "author": "ljy-code <ljy910626@gmail.com>",
   "homepage": "https://github.com/ljy-code/eslint-config/tree/main/packages/stylelint-config#readme",
