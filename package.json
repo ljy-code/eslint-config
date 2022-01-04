@@ -1,5 +1,5 @@
 {
-  "name": "@ljy-code/eslint-config-monorepo",
+  "name": "@ljy-code/f2e-spec",
   "version": "0.0.0",
   "author": "ljy-code <ljy910626@gmail.com> (https://github.com/ljy-code/)",
   "description": "my personal eslint config preset",

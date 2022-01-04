@@ -4,7 +4,14 @@ module.exports = {
     browser: true,
     node: true,
   },
+  parserOptions: {
+    ecmaVersion: 2021,
+    sourceType: "module",
+  },
   extends: ["eslint:recommended", "plugin:prettier/recommended"],
+  rules: {
+    "prettier/prettier": "error",
+  },
   overrides: [
     {
       files: ["scripts/**/*.*"],
@@ -19,8 +26,4 @@ module.exports = {
       },
     },
   ],
-  rules: {
-    "prettier/prettier": "error",
-    eqeqeq: ["error", "smart"],
-  },
 };

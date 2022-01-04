@@ -1,9 +1,9 @@
 {
-  "name": "@ljy-code/eslint-config-vue",
+  "name": "@ljy-code/stylelint-config",
   "version": "0.1.0",
-  "description": "vue project eslint config preset",
-  "author": "ljy-code <ljy910626@gmail.com> (https://github.com/ljy-code/)",
-  "homepage": "https://github.com/ljy-code/eslint-config/tree/main/packages/vue#readme",
+  "description": "stylelint preset",
+  "author": "ljy-code <ljy910626@gmail.com>",
+  "homepage": "https://github.com/ljy-code/eslint-config/tree/main/packages/stylelint-config#readme",
   "license": "MIT",
   "main": "index.js",
   "files": [
@@ -22,8 +22,11 @@
   "scripts": {
     "lint": "eslint . --config=index.js"
   },
-  "gitHead": "44ceae9396dd7c7c9a072086ec5e88b3b60a321a",
   "dependencies": {
-    "eslint-plugin-vue": "^8.2.0"
+    "stylelint": "^14.2.0",
+    "stylelint-scss": "^4.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.6.0"
   }
 }

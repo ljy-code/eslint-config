@@ -1,9 +1,9 @@
 {
-  "name": "@ljy-code/eslint-config-basic",
+  "name": "@ljy-code/eslint-config",
   "version": "0.1.0",
-  "description": "my basic eslint config preset",
-  "author": "ljy-code <ljy910626@gmail.com> (https://github.com/ljy-code/)",
-  "homepage": "https://github.com/ljy-code/eslint-config/tree/main/packages/basic#readme",
+  "description": "eslint config preset collection",
+  "author": "ljy-code <ljy910626@gmail.com>",
+  "homepage": "https://github.com/ljy-code/eslint-config/tree/main/packages/all#readme",
   "license": "MIT",
   "main": "index.js",
   "files": [
@@ -22,11 +22,15 @@
   "bugs": {
     "url": "https://github.com/ljy-code/eslint-config/issues"
   },
-  "gitHead": "44ceae9396dd7c7c9a072086ec5e88b3b60a321a",
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.8.1",
+    "@typescript-eslint/parser": "^5.9.0",
     "eslint": "^8.6.0",
     "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-markdown": "^2.2.1",
     "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-vue": "^8.2.0",
     "prettier": "^2.5.1"
   }
 }
