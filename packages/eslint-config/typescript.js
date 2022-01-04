@@ -8,6 +8,10 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2021,
     sourceType: "module",
+    ecmaFeatures: {
+      // 不允许 return 语句出现在 global 环境下
+      globalReturn: false,
+    },
   },
   extends: [
     "eslint:recommended",

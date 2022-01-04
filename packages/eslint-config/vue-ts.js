@@ -10,6 +10,8 @@ module.exports = {
     sourceType: "module",
     ecmaVersion: 2021,
     ecmaFeatures: {
+      // 不允许 return 语句出现在 global 环境下
+      globalReturn: false,
       tsx: true,
     },
   },

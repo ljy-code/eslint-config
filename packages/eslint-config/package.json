@@ -7,7 +7,12 @@
   "license": "MIT",
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "typescript.js",
+    "vue.js",
+    "vue-ts.js",
+    "react.js",
+    "react-ts.js"
   ],
   "publishConfig": {
     "access": "public"
