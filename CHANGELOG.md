@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.3](https://github.com/ljy-code/eslint-config/compare/v0.1.2...v0.1.3) (2022-03-02)
+
+
+### Bug Fixes
+
+* add vue-eslint-parser ([aabcc7c](https://github.com/ljy-code/eslint-config/commit/aabcc7c04338d33375029c5611bed6ea52f4dbb8))
+
+
+
+
+
 ## [0.1.2](https://github.com/ljy-code/eslint-config/compare/v0.1.1...v0.1.2) (2022-01-04)
 
 
